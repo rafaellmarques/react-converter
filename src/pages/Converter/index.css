@@ -1,0 +1,32 @@
+.converter {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.converter-title {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	width: 100%;
+}
+
+.converter-container {
+	background-color: #f0f0f0;
+	display: grid;
+	grid-template-columns: 1;
+	width: 100%;
+}
+
+@media (min-width: 1200px) {
+	.converter {
+		max-width: 1024px;
+	}
+
+	.converter-container {
+		background-color: #f0f0f0;
+		display: grid;
+		grid-template-columns: 49% 49%;
+		width: 100%;
+	}
+}

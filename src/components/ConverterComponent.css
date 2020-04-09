@@ -1,0 +1,27 @@
+.converter-box {
+	background-color: #ffffff;
+	border: 1px solid #c0c0c0;
+	border-radius: 8px;
+	box-sizing: border-box;
+	margin: 0.5rem;
+	padding: 1rem;
+	transition: all ease-in-out 0.3s;
+}
+
+.converter-box:hover {
+	box-shadow: 0 0 8px 0 #c0c0c0;
+}
+
+.converter-box-input-group {
+	display: flex;
+}
+
+.converter-box-input {
+	width: 100%;
+}
+
+.converter-box-result {
+	align-items: center;
+	display: flex;
+	padding: 1rem 0;
+}
