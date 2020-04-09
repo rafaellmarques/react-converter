@@ -13,11 +13,31 @@
 }
 
 .converter-box-input-group {
+	border: 1px solid #c0c0c0;
+	border-radius: 3px;
 	display: flex;
+	padding: 5px;
 }
 
 .converter-box-input {
+	appearance: none;
+	border: 0;
+	outline: none;
 	width: 100%;
+}
+
+.converter-box-button {
+	appearance: none;
+	background-color: #c0c0c0;
+	border: 0;
+	border-radius: 3px;
+	outline: none;
+	padding: 5px;
+	transition: all ease-in-out 0.3s;
+}
+
+.converter-box-button:active {
+	background-color: #ffffff;
 }
 
 .converter-box-result {
